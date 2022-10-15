@@ -1,0 +1,85 @@
+
+body{
+  background-color: pink;
+}
+
+body {
+    padding-top: 100px;
+    
+}
+
+body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 1s ease-in infinite alternate-reverse;
+    background-image: linear-gradient(-60deg, pink 50%, white  50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation:slide 3s ease-in infinite alternate-reverse;
+  }
+  
+  .bg3 {
+      animation:slide 2s ease-in infinite alternate-reverse;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.50em;
+    box-shadow:0 0 .25em rgba(0, 0, 0, 0.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:5vh;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+    height: 70vh;
+    width: 50vh;
+    margin-top: 10vh;
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+.title{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: larger;
+}
+.email{
+  margin-bottom: 4vh;
+}
+.pass{
+  margin-bottom: 5vh;
+}
+.pussay{
+  margin-top: 5vh;
+}
+
+.welcum{
+  margin-top: -20px;
+  display: flex;
+justify-content: center;
+font-size: 7vh;
+border-radius: 20vh;
+}
